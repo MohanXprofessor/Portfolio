@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import pic from '../assets/logo.png'
+import favicon from '../assets/favicon-16x16.png'
+
 
 import { IoCloseSharp } from "react-icons/io5";
 import { AiOutlineMenu } from 'react-icons/ai';
@@ -18,6 +20,7 @@ function Navbar() {
 
   return (
     <>
+    <link rel="shortcut icon" href="{favicon}" type="image/x-icon" />
     <nav>
       <div className='max-w-screen-2xl container mx-auto px-4 h-16 md:px-20 shadow-md fixed top-0 left-0 right-0'>
         <div className='flex justify-between items-center h-16'>
