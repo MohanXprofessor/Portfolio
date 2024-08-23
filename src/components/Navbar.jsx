@@ -41,15 +41,15 @@ function Navbar() {
       {
         menu &&(
         <div>
-          <ul className='md:hidden flex flex-col h-screen  items-center mt-8 space-y-3 bg-white'>
+          <ul className='md:hidden flex flex-col h-screen w-screen items-center  space-y-3 bg-white'>
           { navItems.map(({id,text})=>(
-              <li className='hover:scale-110 duration-200 font-semibold cursor-pointer'
+              <li className='hover:scale-110 duration-200 w-screen size-10 border-b-2 justify-center flex font-semibold cursor-pointer'
                key={id}>{text}
                
                </li>
              ))}       
               </ul>
-              <hr className='w-full border-[2px] border-black'/>
+              
           </div>
         )}
       </div>

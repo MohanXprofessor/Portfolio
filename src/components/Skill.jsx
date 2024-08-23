@@ -5,7 +5,7 @@ function Skill() {
     <>
     <div className="container">
              
-            
+            <h1>My Skill</h1>
     </div>
     </>
   )
