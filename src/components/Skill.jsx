@@ -3,9 +3,9 @@ import React from 'react'
 function Skill() {
   return (
     <>
-    <div className=' '>
-   
-
+    <div className="container">
+             
+            
     </div>
     </>
   )

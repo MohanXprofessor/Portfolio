@@ -3,17 +3,13 @@ import { ReactTyped } from "react-typed";
 import { BsFacebook } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa6";
 import pi from "../assets/landing.png";
-import { IoLogoYoutube } from "react-icons/io";
 import { FaSquareGithub } from "react-icons/fa6";
 import { RiWhatsappFill } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
-import { FaReact } from "react-icons/fa6";
-import { FaNodeJs } from "react-icons/fa6";
+import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 function Home() {
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20 flex flex-col md:flex-row">
+      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-8 flex flex-col md:flex-row">
         <div className="md:w-[60%] mt-8 md:mt-24 space-y-2 order-2 md:order-1">
           <span className="text-2xl">Hello,</span>
           <div className="flex space-x-1 text-2xl md:text-4xl ">
@@ -43,8 +39,8 @@ function Home() {
           </p>
           <br />
           {/* Social Media Icons */}
-          <div className="flex flex-col md:flex-row space-y-10  p-5 items-center md:space-y-0 justify-between my-20 ">
-            <div className="mt-9">
+          <div className="flex flex-col md:flex-row space-y-10  p-5 items-center md:space-y-0 justify-between">
+            <div className="">
               <h1 className="font-bold">Avaliable On</h1>
               <div className="mt-3">
                 <ul className="flex space-x-5  ">
@@ -80,10 +76,24 @@ function Home() {
             </div>
 
             <div>
-              <div className="mt-9">
-                <h1 className="font-bold">Currently Working On</h1>
-                <div className="mt-3">
-                  <ul className="flex space-x-5 ">
+              <div className="">
+               
+                <div className="">
+                
+
+
+<div class="w-full h-40 flex items-center justify-center">
+            <a href="https://drive.google.com/file/d/1OJKp_rDnWYU17sGNC9a4L1zFieTKS_L9/view?usp=drive_link" target="_blank" class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group">
+              <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-red-700 rounded group-hover:-mr-4 group-hover:-mt-4">
+                <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
+              </span>
+              <span class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full translate-y-full bg-red-600 rounded-2xl group-hover:mb-12 group-hover:translate-x-0"></span>
+              <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white">Resume</span>
+            </a>
+          </div>
+
+ 
+                  {/* <ul className="flex space-x-5 ">
                     <li>
                       <SiMongodb
                         size={20}
@@ -108,11 +118,17 @@ function Home() {
                         className="text-xl cursor-pointer md:text-3xl border-[1px] size-6 hover:scale-125 duration-300 hover:text-yellow-300 hover:bg-black rounded-full"
                       />
                     </li>
-                  </ul>
+                    
+                  </ul> */}
+                  
                 </div>
               </div>
+          
             </div>
           </div>
+
+                    
+
         </div>
         <div className="md:w-1/2 md:ml-48 md:mt-14 mt-8 order-1 items-center">
           <img
@@ -121,7 +137,13 @@ function Home() {
             className="h-[330px] w-[330px] md:h-[400px] md:w-[400px] items-center  drop-shadow-2xl rounded-full "
           />
         </div>
+        
       </div>
+      <span className="flex justify-center">
+          <button className="arrow  items-center animate-bounce w-8 h-8"><MdKeyboardDoubleArrowDown size={48}/></button>
+
+                    </span>
+      
     </>
   );
 }

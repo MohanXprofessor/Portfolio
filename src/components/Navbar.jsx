@@ -27,7 +27,7 @@ function Navbar() {
             <p className='text-sm'>Web Developer</p></h1>
           </div>
           <div>
-            <ul className='hidden md:flex  space-x-8'>
+            <ul className='underl hidden md:flex  space-x-8'>
             { navItems.map(({id,text})=>(
               <li className='hover:scale-110 duration-200 cursor-pointer' key={id}>{text}</li>
              ))}
