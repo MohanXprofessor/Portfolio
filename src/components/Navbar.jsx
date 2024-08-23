@@ -8,8 +8,8 @@ function Navbar() {
 
     const navItems=[
       {id:1,text:'Home'},
-      {id:2,text:'About'},
-      {id:3,text:'Skill'},
+      {id:2,text:'Skill'},
+      {id:3,text:'About'},
       {id:4,text:'Contact'},
     ]
 
@@ -19,7 +19,7 @@ function Navbar() {
     <>
   
     <nav>
-      <div className='max-w-screen-2xl container mx-auto px-4 h-16 md:px-20 shadow-md fixed top-0 left-0 right-0 '>
+      <div className='max-w-screen-2xl container mx-auto px-4 h-16 md:px-20 shadow-md fixed top-0 left-0 right-0 bg-white z-10 '>
         <div className='flex justify-between items-center h-16'>
           <div className='flex space-x-2'>
             <img src={pic} className='h-12 w-12 rounded-r-full' alt="Logo" />
@@ -39,12 +39,17 @@ function Navbar() {
         </div>
       {/* Mobile Navbar */}
       {
-        menu &&(<div>
-          <ul className='md:hidden flex flex-col h-screen  items-center justify-center space-y-3'>
+        menu &&(
+        <div>
+          <ul className='md:hidden flex flex-col h-screen  items-center mt-8 space-y-3 bg-white'>
           { navItems.map(({id,text})=>(
-              <li className='hover:scale-110 duration-200 font-semibold cursor-pointer' key={id}>{text}</li>
+              <li className='hover:scale-110 duration-200 font-semibold cursor-pointer'
+               key={id}>{text}
+               
+               </li>
              ))}       
               </ul>
+              <hr className='w-full border-[2px] border-black'/>
           </div>
         )}
       </div>
