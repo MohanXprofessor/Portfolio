@@ -11,8 +11,8 @@ function Home() {
     <>
       <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-8 flex flex-col md:flex-row">
         <div className="md:w-[60%] mt-8 md:mt-24 space-y-2 order-2 md:order-1">
-          <span className="text-2xl">Hello,</span>
-          <div className="flex space-x-1 text-2xl md:text-4xl ">
+          <span className="text-2xl" data-aos="fade-right"  data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="100">Hello,</span>
+          <div className="flex space-x-1 text-2xl md:text-4xl " data-aos="flip-up"  data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="300">
             <h3>I am Mohan</h3>
             {/* <span className="text-red-700 font-bold">Developer</span> */}
 
@@ -31,15 +31,15 @@ function Home() {
             />
           </div>
           <br />
-          <p className="text-sm md:text-md text-justify">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
+          <p className="text-sm md:text-md text-justify" data-aos="fade-up"  data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="1000">
+            My Name is MOHAN YADAV, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
             voluptatum dolore aliquid mollitia, recusandae, laudantium porro
             dolorum eum doloribus fuga, sapiente non nihil dicta illum. Facere
             dolore velit natus asperiores!
           </p>
           <br />
           {/* Social Media Icons */}
-          <div className="flex flex-col md:flex-row space-y-10  p-5 items-center md:space-y-0 justify-between">
+          <div className="flex flex-col md:flex-row space-y-10  p-5 items-center md:space-y-0 justify-between"   data-aos="fade-right"  data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="1500">
             <div className="">
               <h1 className="font-bold">Avaliable On</h1>
               <div className="mt-3">
@@ -58,8 +58,7 @@ function Home() {
                     </a>
                   </li>
                   <li className="hover:scale-125 duration-300 hover:text-green-500 cursor-pointer">
-                  <a href="https://wa.me/9561138589" target="_blank">
-
+                    <a href="https://wa.me/9561138589" target="_blank">
                       <RiWhatsappFill size={20} />
                     </a>
                   </li>
@@ -77,22 +76,23 @@ function Home() {
 
             <div>
               <div className="">
-               
                 <div className="">
-                
+                  <div class="w-full h-40 flex items-center justify-center">
+                    <a
+                      href="https://drive.google.com/file/d/1OJKp_rDnWYU17sGNC9a4L1zFieTKS_L9/view?usp=drive_link"
+                      target="_blank"
+                      class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group"
+                    >
+                      <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-red-700 rounded group-hover:-mr-4 group-hover:-mt-4">
+                        <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
+                      </span>
+                      <span class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full translate-y-full bg-red-600 rounded-2xl group-hover:mb-12 group-hover:translate-x-0"></span>
+                      <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white">
+                        Resume
+                      </span>
+                    </a>
+                  </div>
 
-
-<div class="w-full h-40 flex items-center justify-center">
-            <a href="https://drive.google.com/file/d/1OJKp_rDnWYU17sGNC9a4L1zFieTKS_L9/view?usp=drive_link" target="_blank" class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group">
-              <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-red-700 rounded group-hover:-mr-4 group-hover:-mt-4">
-                <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
-              </span>
-              <span class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full translate-y-full bg-red-600 rounded-2xl group-hover:mb-12 group-hover:translate-x-0"></span>
-              <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white">Resume</span>
-            </a>
-          </div>
-
- 
                   {/* <ul className="flex space-x-5 ">
                     <li>
                       <SiMongodb
@@ -120,30 +120,24 @@ function Home() {
                     </li>
                     
                   </ul> */}
-                  
                 </div>
               </div>
-          
             </div>
           </div>
-
-                    
-
         </div>
-        <div className="md:w-1/2 md:ml-48 md:mt-14 mt-8 order-1 items-center">
-          <img
+        <div className="md:w-1/2 md:ml-48 md:mt-14 mt-8 order-1 items-center ">
+          <img  data-aos="fade-up"  data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="300"
             src={pi}
             alt="Image web developer"
             className="h-[330px] w-[330px] md:h-[400px] md:w-[400px] items-center  drop-shadow-2xl rounded-full "
           />
         </div>
-        
       </div>
       <span className="flex justify-center">
-          <button className="arrow  items-center animate-bounce w-8 h-8"><MdKeyboardDoubleArrowDown size={48}/></button>
-
-                    </span>
-      
+        <button className="arrow  items-center animate-bounce w-8 h-8">
+          <MdKeyboardDoubleArrowDown size={48} />
+        </button>
+      </span>
     </>
   );
 }
