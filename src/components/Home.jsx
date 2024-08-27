@@ -17,7 +17,7 @@ function Home() {
             {/* <span className="text-red-700 font-bold">Developer</span> */}
 
             <ReactTyped
-              className="text-red-700  font-bold duration-500"
+              className="text-purple-950  font-bold duration-500"
               strings={[
                 "Web Developer.",
                 "Coder.",
@@ -79,7 +79,7 @@ function Home() {
                 <div className="">
                   <div class="w-full h-40 flex items-center justify-center">
                     <a
-                      href="https://drive.google.com/file/d/1OJKp_rDnWYU17sGNC9a4L1zFieTKS_L9/view?usp=drive_link"
+                      href="https://drive.google.com/file/d/1aWlTtnVGvG3rm0ttmx30diJCio-p1SMj/view?usp=sharing"
                       target="_blank"
                       class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group"
                     >
