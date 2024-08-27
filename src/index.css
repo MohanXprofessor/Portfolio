@@ -20,7 +20,7 @@ body{
 .underl{
 
     & :hover{
-        border-bottom: 2px solid rgb(53, 0, 128);
+        border-bottom: 2px solid red;
         
     }
 

@@ -17,7 +17,7 @@ function Home() {
             {/* <span className="text-red-700 font-bold">Developer</span> */}
 
             <ReactTyped
-              className="text-purple-950  font-bold duration-500"
+              className="text-red-700  font-bold duration-500"
               strings={[
                 "Web Developer.",
                 "Coder.",
