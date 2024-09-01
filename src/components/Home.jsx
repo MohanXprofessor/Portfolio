@@ -32,10 +32,7 @@ function Home() {
           </div>
           <br />
           <p className="text-sm md:text-md text-justify" data-aos="fade-up"  data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="1000">
-            My Name is MOHAN YADAV, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
-            voluptatum dolore aliquid mollitia, recusandae, laudantium porro
-            dolorum eum doloribus fuga, sapiente non nihil dicta illum. Facere
-            dolore velit natus asperiores!
+          Mohan Yadav is a talented Frontend Developer skilled in HTML, CSS, JavaScript, and frameworks like React and Angular. He focuses on building dynamic, responsive web applications with a strong emphasis on user experience. Mohan is dedicated to creating visually appealing and functional designs, continuously updating his skills to stay current with frontend technologies.
           </p>
           <br />
           {/* Social Media Icons */}
