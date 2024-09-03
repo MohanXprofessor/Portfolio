@@ -30,9 +30,9 @@ function Navbar() {
           <div>
             <ul className='underl hidden md:flex  space-x-8'>
               
-            {/* { navItems.map(({id,text})=>(
+            { navItems.map(({id,text})=>(
               <li className='hover:scale-110 duration-200 cursor-pointer' key={id}>{text}</li>
-             ))} */}
+             ))}
 
             </ul>
 

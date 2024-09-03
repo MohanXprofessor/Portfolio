@@ -25,3 +25,10 @@ body{
     }
 
 }
+@media (min-width: 100px) { 
+    .sskill{
+        color: white;
+        border-radius: 25px;
+
+    }
+ }
