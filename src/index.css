@@ -33,4 +33,31 @@ body{
     }
  }
 
- /* project  */
+ /* underline full stack developer  */
+
+ .hover-effect {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit; /* Preserve text color */
+    
+    
+  }
+  
+  .hover-effect::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px; /* Thickness of the underline */
+    background-color: red;
+    transition: width 0.8s  ease-in-out;
+    
+  }
+  
+  .hover-effect:hover::after {
+    width: 100%; /* Full width on hover */
+    
+  }
+  

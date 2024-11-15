@@ -9,8 +9,8 @@ import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 function Home() {
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-8 flex flex-col md:flex-row">
-        <div className="md:w-[60%] mt-8 md:mt-24 space-y-2 order-2 md:order-1">
+      <div className="max-w-screen-2xl container mx-auto px-3 md:px-5 my-8 flex flex-col md:flex-row">
+        <div className="md:w-[80%] mt-8 md:mt-24 space-y-2 order-2 md:order-1">
           <span
             className="text-2xl"
             data-aos="fade-right"
@@ -31,16 +31,16 @@ function Home() {
             {/* <span className="text-red-700 font-bold">Developer</span> */}
 
             <ReactTyped
-              className="text-red-700  font-bold duration-500"
+              className="text-red-700  font-bold duration-700"
               strings={[
-                "Web Developer.",
-                "Coder.",
-                "Programmer.",
-                "DSA.",
-                "Full Stack Java.",
+                "JAVA Developer",
+                "Web Developer",
+                "Angular",
+                "Spring Boot",
+                "Restfull API",
               ]}
-              typeSpeed={40}
-              backSpeed={50}
+              typeSpeed={90}
+              backSpeed={30}
               loop={true}
             />
           </div>
@@ -52,12 +52,16 @@ function Home() {
             data-aos-duration="1000"
             data-aos-delay="1000"
           >
-            Mohan Yadav is a talented Frontend Developer skilled in HTML, CSS,
-            JavaScript, and frameworks like React and Angular. He focuses on
-            building dynamic, responsive web applications with a strong emphasis
-            on user experience. Mohan is dedicated to creating visually
-            appealing and functional designs, continuously updating his skills
-            to stay current with frontend technologies.
+            Mohan Yadav is a{" "}
+            <strong>
+              <em class="hover-effect">Full Stack JAVA Developer</em>
+            </strong>
+            &nbsp; skilled in HTML, CSS, JavaScript, and frameworks like React
+            and Angular. He focuses on building dynamic, responsive web
+            applications with a strong emphasis on user experience. Mohan is
+            dedicated to creating visually appealing and functional designs,
+            continuously updating his skills to stay current with frontend
+            technologies.
           </p>
           <br />
           {/* Social Media Icons */}
