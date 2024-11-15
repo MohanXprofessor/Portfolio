@@ -11,11 +11,13 @@ function Skill() {
   return (
     <>
       <div className="skillHeading p-8">
-        <h2 className="sskill bg-blue-500 h-10  flex justify-center items-center sm:rounded-r-full md:rounded-r-full text-white  text-center">My Skill</h2>
+        <h2 className="sskill bg-blue-500 h-10  flex justify-center items-center sm:rounded-r-full md:rounded-r-full text-white  text-center">
+          My Skill
+        </h2>
       </div>
       <div className="flex justify-center pt-5">
         <div className="relative w-[300px] h-[300px] flex justify-center items-center">
-          <h1>FrontEnd </h1>
+          <h1>FrontEnd tech </h1>
           <img
             src={Bootstrap}
             alt="Bootstrap"

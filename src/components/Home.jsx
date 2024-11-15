@@ -11,8 +11,22 @@ function Home() {
     <>
       <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-8 flex flex-col md:flex-row">
         <div className="md:w-[60%] mt-8 md:mt-24 space-y-2 order-2 md:order-1">
-          <span className="text-2xl" data-aos="fade-right"  data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="100">Hello,</span>
-          <div className="flex space-x-1 text-2xl md:text-4xl " data-aos="flip-up"  data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="300">
+          <span
+            className="text-2xl"
+            data-aos="fade-right"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            Hello,
+          </span>
+          <div
+            className="flex space-x-1 text-2xl md:text-4xl "
+            data-aos="flip-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
             <h3>I am Mohan</h3>
             {/* <span className="text-red-700 font-bold">Developer</span> */}
 
@@ -31,12 +45,29 @@ function Home() {
             />
           </div>
           <br />
-          <p className="text-sm md:text-md text-justify" data-aos="fade-up"  data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="1000">
-          Mohan Yadav is a talented Frontend Developer skilled in HTML, CSS, JavaScript, and frameworks like React and Angular. He focuses on building dynamic, responsive web applications with a strong emphasis on user experience. Mohan is dedicated to creating visually appealing and functional designs, continuously updating his skills to stay current with frontend technologies.
+          <p
+            className="text-sm md:text-md text-justify"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1000"
+            data-aos-delay="1000"
+          >
+            Mohan Yadav is a talented Frontend Developer skilled in HTML, CSS,
+            JavaScript, and frameworks like React and Angular. He focuses on
+            building dynamic, responsive web applications with a strong emphasis
+            on user experience. Mohan is dedicated to creating visually
+            appealing and functional designs, continuously updating his skills
+            to stay current with frontend technologies.
           </p>
           <br />
           {/* Social Media Icons */}
-          <div className="flex flex-col md:flex-row space-y-10  p-5 items-center md:space-y-0 justify-between"   data-aos="fade-right"  data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="1500">
+          <div
+            className="flex flex-col md:flex-row space-y-10  p-5 items-center md:space-y-0 justify-between"
+            data-aos="fade-right"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1000"
+            data-aos-delay="1500"
+          >
             <div className="">
               <h1 className="font-bold">Avaliable On</h1>
               <div className="mt-3">
@@ -76,7 +107,7 @@ function Home() {
                 <div className="">
                   <div class="w-full h-40 flex items-center justify-center">
                     <a
-                      href="https://drive.google.com/file/d/1aWlTtnVGvG3rm0ttmx30diJCio-p1SMj/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1BkyDomXFyxZqxm2G_Sc29gx4aEEr9mo0/view?usp=sharing"
                       target="_blank"
                       class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group"
                     >
@@ -123,7 +154,11 @@ function Home() {
           </div>
         </div>
         <div className="md:w-1/2 md:ml-48 md:mt-14 mt-8 order-1 items-center ">
-          <img  data-aos="fade-up"  data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="300"
+          <img
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1000"
+            data-aos-delay="300"
             src={pi}
             alt="Image web developer"
             className="h-[330px] w-[330px] md:h-[400px] md:w-[400px] items-center  drop-shadow-2xl rounded-full "
