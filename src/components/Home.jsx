@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <div className="max-w-screen-2xl container mx-auto px-3 md:px-5 my-8 flex flex-col md:flex-row">
-        <div className="md:w-[80%] mt-8 md:mt-24 space-y-2 order-2 md:order-1">
+        <div className="md:w-[70%] mt-8 md:mt-24 space-y-2 order-2 md:order-1">
           <span
             className="text-2xl"
             data-aos="fade-right"
@@ -56,12 +56,10 @@ function Home() {
             <strong>
               <em class="hover-effect">Full Stack JAVA Developer</em>
             </strong>
-            &nbsp; skilled in HTML, CSS, JavaScript, and frameworks like React
-            and Angular. He focuses on building dynamic, responsive web
-            applications with a strong emphasis on user experience. Mohan is
-            dedicated to creating visually appealing and functional designs,
-            continuously updating his skills to stay current with frontend
-            technologies.
+            &nbsp; skilled in JAVA , MYSQL ,HTML, CSS, JavaScript, Bootstrap,
+            and frameworks like Spring Boot & Angular. He focuses on building
+            dynamic, responsive web applications with a strong emphasis on user
+            experience.
           </p>
           <br />
           {/* Social Media Icons */}

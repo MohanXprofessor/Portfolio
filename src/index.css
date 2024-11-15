@@ -1,63 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* Fonts */
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    width: 100%;
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
 }
 
-.arrow{
-    color: rgb(77, 215, 77);
+.arrow {
+  color: rgb(77, 215, 77);
 }
-.underl{
-
-    & :hover{
-        border-bottom: 2px solid red;
-        
-    }
-
+.underl {
+  & :hover {
+    border-bottom: 2px solid red;
+  }
 }
-@media (min-width: 100px) { 
-    .sskill{
-        color: white;
-        border-radius: 25px;
-
-    }
- }
-
- /* underline full stack developer  */
-
- .hover-effect {
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-    color: inherit; /* Preserve text color */
-    
-    
+@media (min-width: 100px) {
+  .sskill {
+    color: white;
+    border-radius: 25px;
   }
-  
-  .hover-effect::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 3px; /* Thickness of the underline */
-    background-color: red;
-    transition: width 0.8s  ease-in-out;
-    
-  }
-  
-  .hover-effect:hover::after {
-    width: 100%; /* Full width on hover */
-    
-  }
-  
+}
+
+/* underline full stack developer  */
+
+.hover-effect {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit; /* Preserve text color */
+}
+
+.hover-effect::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px; /* Thickness of the underline */
+  background-color: red;
+  transition: width 0.8s ease-in-out;
+}
+
+.hover-effect:hover::after {
+  width: 100%; /* Full width on hover */
+}
